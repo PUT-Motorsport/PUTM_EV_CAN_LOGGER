@@ -1,0 +1,63 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "bb497fcb-2624-4487-8677-d3b90d197372")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "CAN_S"
+		(shape input)
+		(at 190.5 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5bf2f8c2-c21a-4df8-b2f8-0283ed0b99f9")
+	)
+	(hierarchical_label "CAN_L"
+		(shape bidirectional)
+		(at 62.23 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b85bb0f-8f56-4ed9-8c7e-97ce4af334f2")
+	)
+	(hierarchical_label "CAN_RX"
+		(shape output)
+		(at 190.5 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b92bd875-8562-4ed7-9bdb-5568fe25d12c")
+	)
+	(hierarchical_label "CAN_H"
+		(shape bidirectional)
+		(at 62.23 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c38d174e-af72-4993-ba22-dc6bc56832ad")
+	)
+	(hierarchical_label "CAN_TX"
+		(shape input)
+		(at 190.5 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e29261bc-2973-451d-9e8e-24961fb0160e")
+	)
+)

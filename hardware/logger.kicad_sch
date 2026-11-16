@@ -1,0 +1,476 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b652b05a-4e3d-4ad1-b032-18886abe7d45")
+	(paper "A4")
+	(title_block
+		(title "PUTM CAN Logger")
+		(rev "${REVISION}")
+		(company "Author: Łukasz Jęśko")
+		(comment 1 "Reviewer:")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 80.01 71.12) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389d0059-7814-4c30-ba32-63b844dd4dd5")
+	)
+	(wire
+		(pts
+			(xy 80.01 73.66) (xy 109.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5faa2182-1fc5-4871-af10-b222b5f99ca5")
+	)
+	(wire
+		(pts
+			(xy 80.01 109.22) (xy 109.22 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efce2d15-c1ae-45ba-9ef1-06319b9ba014")
+	)
+	(wire
+		(pts
+			(xy 80.01 106.68) (xy 109.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1b6b53c-8fcc-4684-b935-d704453ef08c")
+	)
+	(sheet
+		(at 180.34 52.07)
+		(size 52.07 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "02fbf418-ea38-4707-a301-0759754f8d3f")
+		(property "Sheetname" "microSD"
+			(at 180.34 51.3584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microsd.kicad_sch"
+			(at 180.34 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logger"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 97.79)
+		(size 52.07 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4c7f6f37-9684-4332-946a-16ef9701e81c")
+		(property "Sheetname" "RTC"
+			(at 180.34 97.0784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rtc.kicad_sch"
+			(at 180.34 135.2046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logger"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 60.96)
+		(size 45.72 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5194552f-9357-4e3c-b090-7f0cb7e5d34a")
+		(property "Sheetname" "CAN_M"
+			(at 34.29 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 34.29 86.9446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 34.29 71.12 180)
+			(uuid "2a16a2bb-425d-45f9-ac49-8d6e45054e4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 34.29 73.66 180)
+			(uuid "ebc8684c-1b6c-4b64-9808-36b75ecb16b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" output
+			(at 80.01 73.66 0)
+			(uuid "d46ab4b6-5c4d-4ba0-8898-46a9ebb0291e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_S" input
+			(at 80.01 76.2 0)
+			(uuid "6e0710c4-a034-4192-9f82-fd37a35fd20e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 80.01 71.12 0)
+			(uuid "08fe40ba-4782-4af4-81d4-7954cb251ef1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "logger"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 60.96)
+		(size 46.99 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "67f20bd4-df13-42d9-84c0-791d1c525625")
+		(property "Sheetname" "MCU"
+			(at 109.22 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 109.22 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FDCAN1_RX" input
+			(at 109.22 73.66 180)
+			(uuid "ef21cdd7-8be8-4163-b06f-7417af258439")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FDCAN1_TX" output
+			(at 109.22 71.12 180)
+			(uuid "62ef9c60-7972-4deb-b7b3-3f3b54a547d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FDCAN2_RX" input
+			(at 109.22 109.22 180)
+			(uuid "d6acd1d0-b8ce-4417-8bd8-7fd2fd84fac4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FDCAN2_TX" output
+			(at 109.22 106.68 180)
+			(uuid "e3433b51-41f8-42dd-9296-d32dc0e8c3ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "logger"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 96.52)
+		(size 45.72 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f4c12b1e-021a-499c-be80-b57c2c527a5f")
+		(property "Sheetname" "CAN_PT"
+			(at 34.29 95.8084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 34.29 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_H" bidirectional
+			(at 34.29 106.68 180)
+			(uuid "2722528b-e911-4c9c-98ca-7cfb3ba26099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_L" bidirectional
+			(at 34.29 109.22 180)
+			(uuid "6551759e-ef60-438c-9d73-3c7648063644")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_RX" output
+			(at 80.01 109.22 0)
+			(uuid "4898f2b1-a352-4b1b-b582-cb45ab224469")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_S" input
+			(at 80.01 111.76 0)
+			(uuid "841a97a2-a43a-4fd1-9fd9-a233b426ac6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TX" input
+			(at 80.01 106.68 0)
+			(uuid "82c04616-2ae1-47b8-a388-05e67bae214f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "logger"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110.49 20.32)
+		(size 44.45 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fc205f90-f4b2-49fb-b424-fc0511fa57de")
+		(property "Sheetname" "Zasilanie"
+			(at 110.49 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 110.49 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "logger"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
