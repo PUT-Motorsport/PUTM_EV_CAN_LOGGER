@@ -20,3 +20,5 @@
 
 # Fabrication Toolkit
 /hardware/production/
+hardware/.history/
+*.lck
