@@ -1,4 +1,4 @@
-## 2026-11-13 – MCU: STM32H563RIT (LQFP64)
+ ## 2026-11-13 – MCU: STM32H563RIT (LQFP64)
 
 2x FDCAN, ram > ok 256KB / G0 ok 144KB, G4 128 KB,
 będzie zapas gdy karta się zatnie plus miejsce na program
@@ -28,9 +28,9 @@ U3 - 1 FDCAN - nie pasuje
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | STM32G484RE | 3 | SPI (brak SDMMC) | 128 KB (96 KB SRAM + 32 KB CCM) | LQFP64 | TAK | NIE  | FRONTBOX dev-hard-v2.1, DV_ASMC dev-hard-v1.0.0, BMS_LV hard-v2.0.1 |
 | STM32G0B1RE | 2 | SPI (brak SDMMC) | 144 KB | LQFP64 | TAK | NIE | brak; G0C1KCT (ta sama seria G0) w TIRE_TEMP dev-hard-v3.0 i TIRE_PRESSURE_INTERFACE |
-| STM32H563RI | 2 | SDMMC1 | 640 KB | LQFP64 | TAK | NIE | brak; H573RIT (ta sama seria H5) w AMS_MASTER od v3.1 |
+| STM32H563RI | 2 | SDMMC1 | 640 KB | LQFP64 | TAK | TAK | brak; H573RIT (ta sama seria H5) w AMS_MASTER od v3.1 |
 | STM32H723VG | 3 | SDMMC1, SDMMC2 | 564 KB | LQFP100 | TAK | TAK | nie ma |
-| STM32U385RG | 1 | SDMMC1 | 256 KB | LQFP64 | NIE | TAK | nie ma |
+| STM32U385RG | 1 | SDMMC1 | 256 KB | LQFP64 | NIE | NIE | nie ma |
 | STM32U3B5RG | 2 | SDMMC1 | 640 KB | LQFP64 | TAK | TAK | nie ma |
 
 ### Decyzja
